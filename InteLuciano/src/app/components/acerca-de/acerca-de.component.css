@@ -5,8 +5,19 @@ div{
     background-color: rgb(139, 131, 193);
 }
 
+/*Estilo de la foto de perfil*/
+#media (min-width: 576px){
+    #Perfil_Luciano{
+        position: absolute;
+        whidth: 15%;
+        border-radius: 100%;
+        bok-shadow: 3px 3px 3px grey;
+        left: 3%
+    }
+}
+
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 10%;
 }
